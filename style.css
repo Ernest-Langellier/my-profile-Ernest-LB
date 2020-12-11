@@ -1,0 +1,99 @@
+body{
+	background-color: #bedbbb;
+	color: #575F7D;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: #4B4A67;
+	font-size: 32px;
+	text-align: center;
+}
+h2{
+	color: rgb(100, 100, 100);
+	font-size: 26px;
+	font-weight: lighter;
+	text-align: center;
+
+}
+p{
+	text-align: center;
+}
+a{
+	color: purple;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 32px;
+
+}
+a:hover{
+	color: orange;
+
+}
+
+/* Custom design with class*/
+
+.container{ 
+			padding:60px;
+			margin:50px;
+}
+@media (max-width: 500px) {
+.container{ 
+		width:400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.card-white{
+			width: 900px;
+			background: #eeeeee;
+			padding:30px;
+			margin:50px auto;
+			box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+			border-radius: 4px;"
+}
+.img-circle{
+	width: 170px;
+	border-radius:50%;
+	border: 1px solid black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+	text-align: center;
+	width: 90px;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 20px;
+	margin-bottom: auto;
+	font-size: 16px;
+
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-horizontal li{
+	display: inline;
+
+}
+.list-horizontal {
+	text-align: center;
+}
